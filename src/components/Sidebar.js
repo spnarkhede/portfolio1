@@ -11,8 +11,8 @@ import Phone from "../assets/icon-green/phone.svg";
 import Whatsapp from "../assets/icon-green/whatsapp.svg";
 import Location from "../assets/icon-green/location2.svg";
 import Download from "../assets/icon-green/download.svg";
-import ShubhamImage from "../assets/profiles_images/profile7.png";
-import resume from "../assets/resume.pdf";
+import ShubhamImage from "../assets/profiles_images/lightblue.png";
+import Portfolio from "../assets/portfolio.pdf";
 import { motion } from "framer-motion";
 import { Button, Modal } from "react-bootstrap";
 import ContactForm from "./ContactForm";
@@ -53,7 +53,7 @@ const Sidebar = () => {
       <div className="sidebar__name">
         <span>Shubham</span> Narkhede{" "}
       </div>
-      <div className="sidebar__item sidebar__title">Full Stack Developer</div>
+      <div className="sidebar__item sidebar__title">Full Stack Software Engineer</div>
       <figure className="sidebar__social-icons my-2">
         <a
           href="https://github.com/spnarkhede"
@@ -84,7 +84,7 @@ const Sidebar = () => {
           <img src={facebook} alt="facebook" className="sidebar__icon mr-3" />
         </a>
         <a
-          href="https://www.instagram.com/herr.shubham_"
+          href="https://www.instagram.com/_mr_shubham_narkhede/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -135,12 +135,12 @@ const Sidebar = () => {
         </div>
         <div className="sub_sidebar__item">
           <img src={Location} alt="address" className="sidebar__icon" />
-          Ulm, Baden-Wrüttemberg
+          Ulm, Baden-Württemberg
           <br />
           Germany.
         </div>
       </div>
-      <a href={resume} download="resume.pdf">
+      <a href={Portfolio} download="portfolio.pdf">
         <div className="sidebar__item sidebar__email">
           Resume{" "}
           <img src={Download} alt="download" className="sidebar__icon ml-2" />
@@ -149,7 +149,6 @@ const Sidebar = () => {
       <Button className="sidebar__item sidebar__email" onClick={handleShow}>
         Contact Me
       </Button>
-
       <Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
         <ContactForm  className="modalborder" />
       </Modal>

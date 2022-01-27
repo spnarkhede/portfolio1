@@ -49,10 +49,23 @@ const Navbar = () => {
                         <div className="navbar__item" onClick={() => setActive('About')}>About</div>
                     </Link>
                 }
+
                 {active !== 'Resume' ?
                     <Link to="/resume">
                         <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
                     </Link> : null
+                }
+
+                {active !== 'Thesis' ?
+                    <Link to="/thesis">
+                        <div className="navbar__item" onClick={() => setActive('Thesis')}>Thesis</div>
+                    </Link> : null
+                }
+
+                {active !== 'Skills' &&
+                    <Link to="/technicalskills">
+                        <div className="navbar__item" onClick={() => setActive('Skills')}>Skills</div>
+                    </Link>
                 }
 
                 {active !== 'Projects' &&
@@ -61,9 +74,9 @@ const Navbar = () => {
                     </Link>
                 }
 
-                {active !== 'Services' &&
-                    <Link to="/projects">
-                        <div className="navbar__item" onClick={() => setActive('Projects')}>Services</div>
+                {active !== 'Activities' &&
+                    <Link to="/certifications">
+                        <div className="navbar__item" onClick={() => setActive('Activities')}>Activities</div>
                     </Link>
                 }
             </div>

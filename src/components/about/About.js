@@ -33,7 +33,8 @@ const About = () => {
             exit="exit"
         >
             <h6 className="about__intro">
-                I describe myself as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.
+            I consider myself to be a genuinely persistent person who is always eager to learn and apply new technologies to various fields. Strong programming and design abilities, as well as a deep understanding of techniques with a range of technologies. I've worked in the areas of event and project management, system integration and DevOps (CI-CD), automation, cloud technologies, sales and business-oriented software applications development.  <br/>
+            <strong>Key Skills:</strong> Quality Assurance, Analytical Thinker, Internal Auditing Experience, Relationship Management, Faultless Attention to Details, Advanced Communication Skills. 
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">What I offer</h6>

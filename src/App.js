@@ -3,8 +3,11 @@ import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar';
 import { Route, Redirect, Switch, useLocation } from 'react-router-dom';
 import About from './components/about/About';
-import Resume from './components/Resume';
+import Resume from './components/Resume2';
+import Thesis from './components/Thesis';
+import TechnicalSkills from './components/TechnicalSkills';
 import Projects from './components/Projects';
+import Certification from './components/Certification';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -32,7 +35,20 @@ function App() {
                 <Route path="/resume">
                   <Resume />
                 </Route>
-                <Route path="/projects" component={Projects} />
+                <Route path="/thesis">
+                  <Thesis />
+                </Route>
+                <Route path="/technicalskills">
+                  <TechnicalSkills />
+                </Route>
+                {/* <Route path="/projects" component={Projects} /> */}
+                <Route path="/projects">
+                  <Projects />
+                </Route>
+                <Route path="/certifications">
+                  <Certification />
+                </Route>
+                
                 <Route>
                   <Redirect to="/" />
                 </Route>
