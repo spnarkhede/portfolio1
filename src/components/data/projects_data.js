@@ -21,7 +21,7 @@ const data_projects = [
     {
         name: 'DC-MH/SDI Tool Overview',
         image: Overview,
-        deployed_url: 'https://rb-mobileweb.de.bosch.com/2021/overview/',
+        // deployed_url: 'https://rb-mobileweb.de.bosch.com/2021/overview/',
         // github_url: '',
         category: ['angular', 'node.js', 'bootstrap', 'php', 'rexroth']
     },
@@ -29,7 +29,7 @@ const data_projects = [
     {
         name: 'Smart Project Management',
         image: SPM_Version1,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/spm/e01',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/spm/e01',
         // github_url: '',
         category: ['node.js', 'mysql', 'angular', 'php', 'rexroth']
     },
@@ -37,7 +37,7 @@ const data_projects = [
     {
         name: 'SPM Version 2.0.0',
         image: SPM_Version2,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/spm/v2.0/',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/spm/v2.0/',
         // github_url: '',
         category: ['node.js', 'mysql', 'angular', 'php', 'rexroth']
     },
@@ -45,7 +45,7 @@ const data_projects = [
     {
         name: 'SPM Version 3.0.0',
         image: SPM_Version3,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/spm_testversion3.0/test-version/',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/spm_testversion3.0/test-version/',
         // github_url: '',
         category: ['node.js', 'mongoDB', 'angular', 'php', 'rexroth']
     },
@@ -61,7 +61,7 @@ const data_projects = [
     {
         name: 'Video Conference Platform',
         image: MPMD2021,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MPMD2021/',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MPMD2021/',
         // github_url: '',
         category: ['node.js', 'Angular', 'JavaScript', 'Express.io', 'rexroth']
     },
@@ -69,7 +69,7 @@ const data_projects = [
     {
         name: 'Partner Manager Meeting 2021',
         image: PMM2021,
-        deployed_url: 'https://rb-mobileweb.de.bosch.com/2021/PMM2021/live/',
+        // deployed_url: 'https://rb-mobileweb.de.bosch.com/2021/PMM2021/live/',
         // github_url: '',
         category: ['node.js', 'Angular', 'TypeScript', 'rexroth']
     },
@@ -77,7 +77,7 @@ const data_projects = [
     {
         name: 'Service Partner Conference 2021',
         image: MHSPC2021,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MHSPC2021/live/',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MHSPC2021/live/',
         // github_url: '',
         category: ['node.js', 'Angular', 'TypeScript', 'rexroth']
     },
@@ -85,7 +85,7 @@ const data_projects = [
     {
         name: 'Solution Partner Conference 2021',
         image: MHSDIC2021,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MHSDIC2021/live',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MHSDIC2021/live',
         // github_url: '',
         category: ['node.js', 'react.js', 'JavaScript', 'php', 'rexroth']
     },
@@ -93,7 +93,7 @@ const data_projects = [
     {
         name: 'Portfolio Resume',
         image: Resume,
-        deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MHSDIC2021/live',
+        // deployed_url: 'https://mobilehydraulics.boschrexroth.com/video-streaming-platform/MHSDIC2021/live',
         github_url: 'https://github.com/spnarkhede/Portfolio1_Shubham-Narkhede',
         category: ['node.js', 'react.js', 'next.js', 'mongoDB']
     },
