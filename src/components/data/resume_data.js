@@ -88,12 +88,17 @@ const languages = [
 const tools = [
     {
         icon: react,
-        name: 'AZURE',
+        name: 'Selienium, Power Apps, Postman',
         level: '60'
     },
     {
         icon: react,
-        name: 'AWS',
+        name: 'AZURE, AWS',
+        level: '60'
+    },
+    {
+        icon: react,
+        name: 'jUnit, arc42, Jenkins',
         level: '85'
     },
     {

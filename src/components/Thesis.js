@@ -31,10 +31,15 @@ const Resume = () => {
                         <p className="resume-card__name">
                             Bosch Rexroth AG, 89081 Ulm, Germany
                         </p>
-                        <p className="resume-card__details"> 
+                        {/* <p className="resume-card__details"> 
                                  1. Developed a Centralized Business Application which helps engineers with Customer Relationship management(CRM), IT Service Management, Management Information System(MIS), Content Management(CM) with the help of Mobile Backend as a Service(MBaaS).
                             <br/>2. Technologies used ReactJS, MongoDB, PowerBI Analytics, DevOps, RESTful APIs, Pipeline, NodeJS, CI/CD and AZURE Cloud hosting and deployment services. 
                             <br/>3. This tool will automate the manual process into computerized by studying large sets of project records and assist engineers to generate complete machine with materials suggestions. This tool will increase the efficiency, reduced timestamp of processes, and bring profit in Sales division of Bosch Rexroth AG. 
+                        </p> */}
+                        <p className="resume-card__details"> 
+                                 1. Develop a centralized business application with the help of Mobile Backend as a Service (MBaaS) that facilitates customer relationship management (CRM), computer service management (ITSM), and content management (CM).
+                            <br/>2. The following technologies were used: ReactJS, MongoDB, Power BI- Business Data Analytics, DevOps, RESTful APIs, Pipeline, NodeJS, CI/CD and AZURE Cloud hosting services.
+                            <br/>3. By automating manual processes into computerized processes by studying large sets of project records, this tool will enable engineers to generate complete machine design files with materials suggestions, resulting in increased efficiency, a reduction in time, and increased profit for sales division of Bosch Rexroth AG.
                         </p>
                     </div>
                     <div className="resume-card__body">
